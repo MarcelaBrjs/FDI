@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(105, 0, 20);
+}
+
+img, iframe {
+    height: 500px;
+    border-style: none;
+}
+
+#contenedor-principal {
+    background-color: #F5F5F4;
+    margin: 0% 10% 0% 10%;
+    padding: 2% 2.5% 2.5% 2.5%;
+}
+
+#visuales {
+    display: flex;
+    justify-content: space-between;
+}
