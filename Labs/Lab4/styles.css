@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    background-color: rgb(160, 58, 45);
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+    letter-spacing: 20px;
+}
+
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 22px;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    margin-top: 0px;
+    text-align: justify;
+}
+
+#contenedor-principal {
+    background-color: #F5F5F4;
+    margin: 0% 10%;
+    padding: 2% 2.5% 2.5% 2.5%;
+}
+
+#columnas {
+    display: flex;
+}
+
+#fotos {
+    width: 40%;
+}
+
+#fotos img {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+#texto {
+    width: 60%;
+    margin-left: 40px;
+}
+
+#destinos li {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+#referencias li {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+#linea {
+    width: 100%;
+    height: 0px;
+    border-bottom: 3px solid black;
+    margin-bottom: 40px;
+}
+
