@@ -1,0 +1,137 @@
+body {
+    background-color: #f8f9fa;   
+    border-style: solid;
+    border-color: #124559;
+    border-width: 2px;
+}
+
+.header {
+    background-color: #aec3b0;
+    text-align: center;
+    padding: 20px;
+}
+
+.header p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    margin-top: 0px;
+    color: black;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 15px;
+    font-size: 60px;
+    margin-bottom: 0px;
+    color: #01161e
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #124559;
+  }
+  
+.topnav a {
+    float: left;
+    display: block;
+    color: #eff6e0;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 18px;
+    letter-spacing: 5px;
+}
+  
+.topnav a:hover {
+    background-color: #eff6e0;
+    color: black;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    display: flex;
+}
+
+.column img {
+    width: 100%;
+    margin: 10px;
+}
+
+.column h2 {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 15px;
+    font-size: 30px;
+}
+
+.column p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    margin-top: 0px;
+    color: black;
+}
+
+.text {
+    padding: 0px 40px;
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+}
+
+.footer {
+    background-color: #124559;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 15px;
+    letter-spacing: 5px;
+    color: #eff6e0;
+  }
+
+main {
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+div.gallery {
+    margin: 10px;
+    border: 2px solid #aec3b0;
+    width: 400px;
+    display: inline-block;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 18px;
+    letter-spacing: 5px;
+    
+}
+  
+div.gallery:hover {
+    border: 1px solid #777;
+}
+  
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+  
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
