@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    background: rgb(92,15,4);
+    background: linear-gradient(90deg, rgba(92,15,4,1) 0%, rgba(145,24,8,1) 20%, rgba(42,157,183,1) 80%, rgba(166,240,255,1) 100%);
+}
+
+#main-box {
+    background-color: #F5F5F4;
+    margin: 0% 20%;
+    padding: 2% 2.5% 2.5% 2.5%;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+    margin: 20px 20px 0px 20px;
+    letter-spacing: 10px;
+}
+
+h2 {
+    color:rgb(160, 58, 45);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin: 0px 20px 20px 20px;
+}
+
+#percentages {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#percentages button {
+    border: none;
+    background-color: transparent;
+}
+
+.percentage {
+    width: 100px;
+    margin: 20px;
+}
+
+#artwork { 
+    width: 500px;
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
